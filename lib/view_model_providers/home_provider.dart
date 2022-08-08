@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
-
-
 import '../network_service/api_response/api_response.dart';
 import '../network_service/app_logger.dart';
 import '../network_service/models/PackageResponse.dart';
-import '../network_service/models/movie_response.dart';
 import '../respositories/home_repository.dart';
 
 class HomeProvider with ChangeNotifier {

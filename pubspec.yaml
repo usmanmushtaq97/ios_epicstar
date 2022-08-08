@@ -33,7 +33,7 @@ dependencies:
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.2
+  cupertino_icons: ^1.0.5
   dio: any
   provider: any
   logger: any
@@ -43,12 +43,14 @@ dependencies:
   shared_preferences: any
   #  For Local Notification
   flutter_local_notifications: ^9.7.0
-  http: ^0.13.4
+  http: ^0.13.5
   timezone: any
 
     #  For Freezed, json Annotation -> Model Creating
-  freezed_annotation: ^2.0.3
+  freezed_annotation: ^2.1.0
   json_annotation: ^4.6.0
+  webview_flutter: ^3.0.4
+  flutter_native_splash: ^2.2.7
 
 dev_dependencies:
   flutter_test:
@@ -59,7 +61,12 @@ dev_dependencies:
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
-  flutter_lints: ^2.0.0
+  flutter_lints: ^2.0.1
+
+flutter_native_splash:
+  color: "#42a5f5"
+  #background_image: "assets/background.png"
+  android_12:
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
